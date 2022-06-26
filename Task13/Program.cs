@@ -16,7 +16,7 @@
         }
 
         int third = number%10;
-        Console.WriteLine("Третьей цифра Вашего числа: " + third);
+        Console.WriteLine("Третья цифра Вашего числа: " + third);
         
     }
     else

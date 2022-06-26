@@ -1,9 +1,5 @@
-﻿void ThirdDigit()
+﻿void ThirdDigit(int number)
 {
-    Console.Write("Введите число: ");
-
-    int number = Convert.ToInt32(Console.ReadLine());
-
     if(number<0)
     {
         number = number*-1;
@@ -25,4 +21,7 @@
     }
 }
 
-ThirdDigit();
+ Console.Write("Введите число: ");
+ int num = Convert.ToInt32(Console.ReadLine());
+ 
+ThirdDigit(num);
